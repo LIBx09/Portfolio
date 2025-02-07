@@ -1,0 +1,98 @@
+[
+  {
+    "id": "001",
+    "live_demo_url": "https://visa-navigator-6e2d7.web.app/",
+    "github_url": "https://github.com/LIBx09/B10A10-Visa-Navigator-Client",
+    "name": "Dream Visa",
+    "title": "Visa Navigator",
+    "description": "Visa Navigator is a modern web application designed to simplify the visa application process. It allows users to check visa requirements, apply for visas online, and track their application status seamlessly.",
+    "core_technologies": [
+      "React.js",
+      "React Router DOM",
+      "Firebase",
+      "Axios",
+      "Framer Motion",
+      "Animate.css",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Flowbite",
+      "Swiper",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT (jsonwebtoken)",
+      "Dotenv",
+      "CORS",
+      "Cookie Parser"
+    ],
+    "image": "https://i.postimg.cc/FRmmxsCr/Visa-nav.png",
+    "key_features": [
+      "Online Visa Application – Easily apply for visas with a guided form.",
+      "Secure Authentication – Firebase login & protected API routes.",
+      "User Dashboard – View application history and personal details.",
+      "Admin Panel – Manage visa applications, user data, and status updates.",
+      "Payment Integration – Securely process visa application fees.",
+      "Full-Stack Functionality – Built with Express.js and MongoDB.",
+      "Interactive UI – Smooth animations & modern, responsive design."
+    ]
+  },
+  {
+    "id": "002",
+    "live_demo_url": "https://timekeeper-s-archive.web.app/",
+    "github_url": "https://github.com/LIBx09/B10A11-Timekeepers-Archive-Client",
+    "name": "Timekeeper's Archive",
+    "title": "A web application for tracking and exploring historical artifacts.",
+    "description": "Timekeeper's Archive is a web application designed for history enthusiasts and researchers to explore and preserve historical artifacts. Users can register, browse artifacts, add new entries, and manage their own collection of historical items. Each artifact includes detailed information such as its origin, historical significance, and visual representation. This platform not only allows users to discover ancient relics like the Rosetta Stone or Antikythera Mechanism but also encourages them to contribute their own findings. Users can like artifacts, track their contributions, and interact with a visually rich, user-friendly interface.The system ensures a secure and smooth experience with Firebase authentication, MongoDB database, and an Express.js backend, making artifact management effortless. Whether you are a historian, collector, or simply curious about history, Timekeeper's Archive is your gateway to the past! 🏛️✨",
+    "core_technologies": [
+      "React.js",
+      "Firebase Auth",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "image": "https://i.postimg.cc/Pq1TZ84V/Timeskeeper.png",
+    "key_features": [
+      "Artifact Browsing – Explore a collection of historical artifacts",
+      "Detailed Information – View descriptions, images, and historical significance",
+      "User Contributions – Add and manage personal artifacts",
+      "Liking & Tracking – Keep track of favorite artifacts",
+      "Secure Authentication – Firebase login & JWT-protected API routes",
+      "Interactive UI – Modern animations & seamless experience"
+    ]
+  },
+  {
+    "id": "003",
+    "live_demo_url": "https://watfari-tourism.web.app/",
+    "github_url": "https://github.com/LIBx09/Wayfari-client",
+    "name": "Wayfari Tourism",
+    "title": "Tourism related Web Application",
+    "description": "Wayfari Tourism is a dynamic platform for tourists, guides, and admins, offering seamless booking and payment through Stripe. Tourists can explore and book experiences, guides can apply to share their expertise, and admins manage platform operations.",
+    "core_technologies": [
+      "React.js",
+      "React Router Dom",
+      "Firebase",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Vite",
+      "Axios",
+      "Stripe API",
+      "AOS",
+      "Lottie",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Dotenv"
+    ],
+    "image": "https://i.postimg.cc/nzkxSbNv/wayfari.png",
+    "key_features": [
+      "Explore Popular Destinations – Get in-depth details on top tourist attractions in Bangladesh",
+      "Cultural & Cuisine Insights – Discover local traditions, food, and events",
+      "Interactive Map – Easily navigate through destinations with geolocation support",
+      "User Reviews & Ratings – Share and read real traveler experiences",
+      "Secure Online Payments – Seamless integration with Stripe for hassle-free bookings",
+      "Bookmark & Wishlist – Save places you want to visit later",
+      "Fast & Responsive – Built using React, Vite, and Tailwind CSS for a seamless experience"
+    ]
+  }
+]

@@ -1,2 +1,42 @@
 @import "tailwindcss";
 @plugin "daisyui";
+/* html {
+  scroll-behavior: smooth;
+} */
+.active {
+  color: #3b82f6; /* Blue color for active link */
+  font-weight: bold;
+  position: relative;
+  padding: 0.5rem 1rem; /* Add padding for better spacing */
+  border-radius: 0.5rem; /* Rounded corners */
+  overflow: hidden; /* Ensure the gradient doesn't overflow */
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0.5rem; /* Match the border radius */
+  border: 2px solid transparent; /* Transparent border */
+  background: linear-gradient(45deg, #3b82f6, #9333ea, #3b82f6) border-box; /* Gradient border */
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0); /* Mask for gradient border */
+  -webkit-mask-composite: xor; /* Combine masks */
+  mask-composite: exclude; /* Exclude the inner area */
+  animation: border-animation 3s linear infinite; /* Gradient animation */
+}
+
+@keyframes border-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
