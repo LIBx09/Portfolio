@@ -98,7 +98,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className=" text-xl">
+        <Link to="/" className="text-[#DDDFE3] text-2xl font-bold">
           Ibrahim Fuad
         </Link>
       </div>

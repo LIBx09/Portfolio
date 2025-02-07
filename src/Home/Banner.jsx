@@ -3,6 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Typewriter } from "react-simple-typewriter";
 import profile from "../assets/Profile.jpg";
+import vite from "../assets/vite.svg";
+import react from "../assets/react.svg";
+
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Banner = () => {
@@ -100,7 +103,7 @@ const Banner = () => {
 
       <div className="relative mt-10 md:mt-0" data-aos="fade-left">
         <div className="flex justify-end">
-          <img src="../../public/react.svg" alt=" " />
+          <img src={react} alt=" " />
         </div>
         <div className="p-[4px] rounded-full bg-gradient-to-r from-[#3b82f6] via-[#9333ea] to-[#3b82f6]">
           <img
@@ -110,7 +113,7 @@ const Banner = () => {
           />
         </div>
         <div className="flex justify-between">
-          <img src="../../public/vite.svg" alt="" />
+          <img src={vite} alt="" />
         </div>
       </div>
     </div>

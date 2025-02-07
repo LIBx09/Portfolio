@@ -89,6 +89,12 @@ const PortfolioDetails = () => {
           </ul>
         </div>
       </div>
+      <div className="active w-11/12 mx-auto my-10">
+        <h3 className="text-white! text-2xl! my-5!">
+          Overcoming Challenges and Striving for Excellence in My Project
+        </h3>
+        <p>{projectDetail.note}</p>
+      </div>
     </>
   );
 };

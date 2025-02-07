@@ -34,7 +34,8 @@
       "Payment Integration – Securely process visa application fees.",
       "Full-Stack Functionality – Built with Express.js and MongoDB.",
       "Interactive UI – Smooth animations & modern, responsive design."
-    ]
+    ],
+    "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
   },
   {
     "id": "002",
@@ -58,7 +59,8 @@
       "Liking & Tracking – Keep track of favorite artifacts",
       "Secure Authentication – Firebase login & JWT-protected API routes",
       "Interactive UI – Modern animations & seamless experience"
-    ]
+    ],
+    "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
   },
   {
     "id": "003",
@@ -93,6 +95,7 @@
       "Secure Online Payments – Seamless integration with Stripe for hassle-free bookings",
       "Bookmark & Wishlist – Save places you want to visit later",
       "Fast & Responsive – Built using React, Vite, and Tailwind CSS for a seamless experience"
-    ]
+    ],
+    "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
   }
 ]
