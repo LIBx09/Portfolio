@@ -56,7 +56,7 @@ const Banner = () => {
         </div>
         <div>
           <a
-            href="https://drive.google.com/file/d/1Xp-jyHg33Y6C5IU6U-F-TtO7Wv0CZ_Bp/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1ODH5o_eOA0KDa1ooGnIWBcTQNShjhFHZ/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >

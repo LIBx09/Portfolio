@@ -140,10 +140,10 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         <a
-          href="https://drive.google.com/file/d/1Xp-jyHg33Y6C5IU6U-F-TtO7Wv0CZ_Bp/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1ODH5o_eOA0KDa1ooGnIWBcTQNShjhFHZ/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
-          className="active hover:bg-gradient-to-r from-[#3b82f6] via-[#9333ea] to-[#3b82f6] hover:text-black"
+          className="active hover:bg-gradient-to-r from-[#3b82f6] via-[#9333ea] to-[#3b82f6] hover:text-white!"
         >
           Resume
         </a>
