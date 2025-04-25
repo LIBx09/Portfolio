@@ -1,6 +1,112 @@
 [
   {
     "id": "001",
+    "live_demo_url": "https://watfari-tourism.web.app/",
+    "github_url": "https://github.com/LIBx09/Wayfari-client",
+    "name": "Wayfari Tourism",
+    "title": "Tourism related Web Application",
+    "description": "Wayfari Tourism is a dynamic platform for tourists, guides, and admins, offering seamless booking and payment through Stripe. Tourists can explore and book experiences, guides can apply to share their expertise, and admins manage platform operations.",
+    "core_technologies": [
+      "React.js",
+      "React Router Dom",
+      "Firebase",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Vite",
+      "Axios",
+      "Stripe API",
+      "AOS",
+      "Lottie",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Dotenv"
+    ],
+    "image": "https://i.postimg.cc/nzkxSbNv/wayfari.png",
+    "key_features": [
+      "Explore Popular Destinations – Get in-depth details on top tourist attractions in Bangladesh",
+      "Cultural & Cuisine Insights – Discover local traditions, food, and events",
+      "Interactive Map – Easily navigate through destinations with geolocation support",
+      "User Reviews & Ratings – Share and read real traveler experiences",
+      "Secure Online Payments – Seamless integration with Stripe for hassle-free bookings",
+      "Bookmark & Wishlist – Save places you want to visit later",
+      "Fast & Responsive – Built using React, Vite, and Tailwind CSS for a seamless experience"
+    ],
+    "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
+  },
+  {
+    "id": "003",
+    "live_demo_url": "https://mfs-job-task-2.web.app/",
+    "github_url": "https://github.com/LIBx09/MFS_Job_Task_Client",
+    "server_github_url": "https://github.com/LIBx09/MFS_Job_Task_Server",
+    "name": "MFS",
+    "title": "Mobile Financial Services",
+    "description": "Mobile Financial Services (MFS) is a comprehensive web application designed to facilitate mobile banking and financial transactions. It offers a user-friendly interface for managing accounts, transferring funds, and accessing various financial services.",
+
+    "core_technologies": [
+      "React.js",
+      "React Router Dom",
+      "React-Tabs",
+      "react-hook-form",
+      "Firebase",
+      "Tailwind CSS",
+      "DaisyUI",
+      "Vite",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose (First Time)",
+      "JWT",
+      "Dotenv"
+    ],
+    "image": "https://i.postimg.cc/0y6RN6h8/mfs.png",
+    "key_features": [
+      "User can send money to another user with automatic fee handling",
+      "User can receive money instantly with updated balance",
+      "User can cash out money from an authorized agent with 1.5% fee",
+      "User can cash in money through agents with zero fee",
+      "Agent can register and request admin approval for activation",
+      "Admin can manage users and agents including viewing transactions (blocking accounts planned)",
+      "Admin can approve agents and recharge agent balance",
+      "Admin earns a portion from every transaction as platform income",
+      "Each transaction generates a unique transaction ID stored in the database",
+      "Balance inquiry available for all roles with privacy toggle feature",
+      "Secure JWT-based authentication with hashed PIN for enhanced security",
+      "Users and agents can only log in from one device at a time (planned)",
+      "Clean and user-friendly UI built with React and Tailwind CSS",
+      "Real-time balance and transaction updates using Node.js and MongoDB with Mongoose"
+    ],
+    "note": "As a beginner, one of the main challenges I faced during the development of this Mobile Financial Service (MFS) application was understanding and structuring the complete workflow of the system — especially managing different user roles (User, Agent, Admin) and their specific transactions like cash-in, cash-out, and send money. Initially, the process felt overwhelming and occasionally led to logic or validation errors during implementation.\n\nWhenever I encountered errors — whether it was in authentication, database schema design with Mongoose, or role-based access control — I took a problem-solving approach. I broke down each feature into smaller, manageable tasks and referred to official documentation for tools like Express.js, MongoDB, and Firebase Authentication. I also relied heavily on community resources, including YouTube tutorials, developer blogs, and Stack Overflow to understand best practices and resolve bugs.\n\nThis consistent effort of learning, debugging, and testing helped me gradually build confidence and gain deeper knowledge of backend architecture and full-stack project flow. The process not only improved my technical skills but also taught me the importance of persistence and using the right resources effectively."
+  },
+  {
+    "id": "002",
+    "live_demo_url": "https://timekeeper-s-archive.web.app/",
+    "github_url": "https://github.com/LIBx09/B10A11-Timekeepers-Archive-Client",
+    "name": "Timekeeper's Archive",
+    "title": "A web application for tracking and exploring historical artifacts.",
+    "description": "Timekeeper's Archive is a web application designed for history enthusiasts and researchers to explore and preserve historical artifacts. Users can register, browse artifacts, add new entries, and manage their own collection of historical items. Each artifact includes detailed information such as its origin, historical significance, and visual representation. This platform not only allows users to discover ancient relics like the Rosetta Stone or Antikythera Mechanism but also encourages them to contribute their own findings. Users can like artifacts, track their contributions, and interact with a visually rich, user-friendly interface.The system ensures a secure and smooth experience with Firebase authentication, MongoDB database, and an Express.js backend, making artifact management effortless. Whether you are a historian, collector, or simply curious about history, Timekeeper's Archive is your gateway to the past! 🏛️✨",
+    "core_technologies": [
+      "React.js",
+      "Firebase Auth",
+      "Express.js",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "image": "https://i.postimg.cc/Pq1TZ84V/Timeskeeper.png",
+    "key_features": [
+      "Artifact Browsing – Explore a collection of historical artifacts",
+      "Detailed Information – View descriptions, images, and historical significance",
+      "User Contributions – Add and manage personal artifacts",
+      "Liking & Tracking – Keep track of favorite artifacts",
+      "Secure Authentication – Firebase login & JWT-protected API routes",
+      "Interactive UI – Modern animations & seamless experience"
+    ],
+    "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
+  },
+  {
+    "id": "004",
     "live_demo_url": "https://visa-navigator-6e2d7.web.app/",
     "github_url": "https://github.com/LIBx09/B10A10-Visa-Navigator-Client",
     "name": "Dream Visa",
@@ -34,67 +140,6 @@
       "Payment Integration – Securely process visa application fees.",
       "Full-Stack Functionality – Built with Express.js and MongoDB.",
       "Interactive UI – Smooth animations & modern, responsive design."
-    ],
-    "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
-  },
-  {
-    "id": "002",
-    "live_demo_url": "https://timekeeper-s-archive.web.app/",
-    "github_url": "https://github.com/LIBx09/B10A11-Timekeepers-Archive-Client",
-    "name": "Timekeeper's Archive",
-    "title": "A web application for tracking and exploring historical artifacts.",
-    "description": "Timekeeper's Archive is a web application designed for history enthusiasts and researchers to explore and preserve historical artifacts. Users can register, browse artifacts, add new entries, and manage their own collection of historical items. Each artifact includes detailed information such as its origin, historical significance, and visual representation. This platform not only allows users to discover ancient relics like the Rosetta Stone or Antikythera Mechanism but also encourages them to contribute their own findings. Users can like artifacts, track their contributions, and interact with a visually rich, user-friendly interface.The system ensures a secure and smooth experience with Firebase authentication, MongoDB database, and an Express.js backend, making artifact management effortless. Whether you are a historian, collector, or simply curious about history, Timekeeper's Archive is your gateway to the past! 🏛️✨",
-    "core_technologies": [
-      "React.js",
-      "Firebase Auth",
-      "Express.js",
-      "MongoDB",
-      "Tailwind CSS"
-    ],
-    "image": "https://i.postimg.cc/Pq1TZ84V/Timeskeeper.png",
-    "key_features": [
-      "Artifact Browsing – Explore a collection of historical artifacts",
-      "Detailed Information – View descriptions, images, and historical significance",
-      "User Contributions – Add and manage personal artifacts",
-      "Liking & Tracking – Keep track of favorite artifacts",
-      "Secure Authentication – Firebase login & JWT-protected API routes",
-      "Interactive UI – Modern animations & seamless experience"
-    ],
-    "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
-  },
-  {
-    "id": "003",
-    "live_demo_url": "https://watfari-tourism.web.app/",
-    "github_url": "https://github.com/LIBx09/Wayfari-client",
-    "name": "Wayfari Tourism",
-    "title": "Tourism related Web Application",
-    "description": "Wayfari Tourism is a dynamic platform for tourists, guides, and admins, offering seamless booking and payment through Stripe. Tourists can explore and book experiences, guides can apply to share their expertise, and admins manage platform operations.",
-    "core_technologies": [
-      "React.js",
-      "React Router Dom",
-      "Firebase",
-      "Tailwind CSS",
-      "DaisyUI",
-      "Vite",
-      "Axios",
-      "Stripe API",
-      "AOS",
-      "Lottie",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-      "Dotenv"
-    ],
-    "image": "https://i.postimg.cc/nzkxSbNv/wayfari.png",
-    "key_features": [
-      "Explore Popular Destinations – Get in-depth details on top tourist attractions in Bangladesh",
-      "Cultural & Cuisine Insights – Discover local traditions, food, and events",
-      "Interactive Map – Easily navigate through destinations with geolocation support",
-      "User Reviews & Ratings – Share and read real traveler experiences",
-      "Secure Online Payments – Seamless integration with Stripe for hassle-free bookings",
-      "Bookmark & Wishlist – Save places you want to visit later",
-      "Fast & Responsive – Built using React, Vite, and Tailwind CSS for a seamless experience"
     ],
     "note": "I faced a lot of technical challenges while working on this projects, but I never gave up. I put in my best effort and was able to achieve a great result. However, there's still some UI-related work to be done, and more functionality can be added to achieve the best possible outcome."
   }

@@ -69,7 +69,10 @@ const About = () => {
           data-aos="fade-left"
           className="w-full md:w-1/2 -mt-10 md:-mt-24 lg:-mt-24"
         >
-          <Lottie animationData={work_animation} className="max-h-60 mx-auto" />
+          <Lottie
+            animationData={work_animation}
+            className="max-h-full mx-auto"
+          />
         </div>
       </div>
     </div>

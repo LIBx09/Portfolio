@@ -53,11 +53,11 @@ const ParticleBg = () => {
               },
               move: {
                 direction: "none",
-                enable: true,
+                enable: false,
                 outModes: { default: "bounce" },
                 random: false,
                 speed: 6,
-                straight: false,
+                straight: true,
               },
               number: {
                 density: { enable: true, area: 800 },

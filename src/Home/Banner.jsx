@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Typewriter } from "react-simple-typewriter";
-import profile from "../assets/Profile.jpg";
+import profile from "../assets/pro.jpg";
 import vite from "../assets/vite.svg";
 import react from "../assets/react.svg";
 
@@ -21,7 +21,11 @@ const Banner = () => {
 
         <p className="text-2xl text-blue-400 font-semibold mt-2">
           <Typewriter
-            words={["Web Developer", "Content Writer", "UI/UX Designer"]}
+            words={[
+              "Junior Web Developer",
+              "Frontend Learner",
+              "React Enthusiast",
+            ]}
             loop={0}
             cursor
             cursorStyle="|"
@@ -105,11 +109,11 @@ const Banner = () => {
         <div className="flex justify-end">
           <img src={react} alt=" " />
         </div>
-        <div className="p-[4px] rounded-full bg-gradient-to-r from-[#3b82f6] via-[#9333ea] to-[#3b82f6]">
+        <div className="p-[4px] rounded-full  bg-gradient-to-r from-[#3b82f6] via-[#9333ea] to-[#3b82f6]">
           <img
             src={profile}
             alt="Profile"
-            className="rounded-full w-[300px] h-[300px]  bg-gray-800 p-1"
+            className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] scale-90 transition-transform duration-300 hover:scale-100 rounded-full bg-gray-800 p-1"
           />
         </div>
         <div className="flex justify-between">
